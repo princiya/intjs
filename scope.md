@@ -84,10 +84,6 @@ console.log(tmp); // Logs 123
 
 --------
 
-*Temporal Dead Zone a.k.a. Hoisting*
-
---------
-
 *`var` vs `let` in loops*
 
 ```
