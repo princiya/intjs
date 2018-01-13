@@ -1,4 +1,4 @@
-*What is scope?*
+**What is scope?**
 
 Scope is a set of rules for looking up variables by their identifier name. _In simpler words, scope determines visibility for variables._
 

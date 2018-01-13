@@ -8,4 +8,4 @@ Hoisting is a JavaScript mechanism where variables and function declarations are
 [Example](./letvsvar.md#hoisting)
 
 *The TDZ via tech-cartoons*
-![Temporal Dead Zone](/images/let_vs_var_tdz.jpg)
+![Temporal Dead Zone](./images/let_vs_var_tdz.jpg)
