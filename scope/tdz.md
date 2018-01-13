@@ -4,8 +4,10 @@ A variable declared by let has a temporal dead zone (TDZ). When entering its sco
 _In simpler words, `let` variables aren't hoisted._
 
 **What is hoisting?**
+
 Hoisting is a JavaScript mechanism where variables and function declarations are moved to the top of their scope before code execution.
 [Example](./letvsvar.md#hoisting)
 
 **The TDZ via tech-cartoons**
+
 ![Temporal Dead Zone](./images/let_vs_var_tdz.jpg)

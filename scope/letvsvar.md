@@ -2,7 +2,7 @@ Code snippets explaining variables and scope in JavaScript.
 
 ------
 
-*Scope for `let` vs `var`*
+**Scope for `let` vs `var`**
 
 ```
 function scope() {
@@ -26,8 +26,7 @@ function scope() {
 
 --------
 
-*[Hoisting](#hoisting)*
-*`ReferenceError` vs `undefined`*
+[Hoisting](#hoisting) **`ReferenceError` vs `undefined`**
 
 ```
 function scope() {
@@ -59,7 +58,7 @@ function scope() {
 
 ------
 
-*Declaration vs Definition of a variable*
+**Declaration vs Definition of a variable**
 
 ```
 var tmp; // Declaration
@@ -68,7 +67,9 @@ var tmp = 123; // Declaration and definition (assignment)
 ```
 --------
 
-*Variable defined, but not declared*
+**Variable defined, but not declared**
+
+All undeclared variables in JavaScript are global by default!
 
 ```
 function scope() {
@@ -85,7 +86,7 @@ console.log(tmp); // Logs 123
 
 --------
 
-*`var` vs `let` in loops*
+[Loops](#loops) **`var` vs `let` in loops**
 
 ```
 for(var i = 1; i <= 5; i++) {
