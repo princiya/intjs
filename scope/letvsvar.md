@@ -10,7 +10,7 @@ function scope() {
         let tmp;
     }
     console.log(tmp); // ReferenceError: tmp is not defined here because `let` is block scoped
-                      // and is declared outside the scope of the executing code 
+                      // and is declared outside the scope of the executing code
 }
 ```
 
@@ -26,6 +26,7 @@ function scope() {
 
 --------
 
+*[Hoisting](#hoisting)*
 *`ReferenceError` vs `undefined`*
 
 ```
@@ -49,9 +50,9 @@ function scope() {
 
 function scope() {
   var hoist;
-  
+
   console.log('hoist');
-  
+
   hoist = 'The variable has been hoisted.';
 }
 ```
@@ -72,7 +73,7 @@ var tmp = 123; // Declaration and definition (assignment)
 ```
 function scope() {
   tmp = 123;
-  
+
   console.log(tmp); // Logs 123
 }
 
@@ -122,8 +123,3 @@ Value of i : 5
 In a `let`, a new storage space is created for each iteration of the loop.
 Each `i` refers to the binding of one specific iteration and preserves the value that was current at that time.
 Therefore, each `setTimeout` function returns a different value.
-
-
-
-
-
