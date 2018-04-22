@@ -1,0 +1,35 @@
+.stats,
+.projects {
+  border: 1px solid #000;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.stats {
+  display: block;
+}
+
+.stat,
+.project {
+  padding: 10px;
+}
+
+.stat span {
+  display: inline-block;
+  font-weight: bold;
+}
+
+.stat span:last-child {
+  margin-left: 20px;
+}
+
+.projects {
+  display: flex;
+  margin-top: 20px;
+}
+
+.project span {
+  display: block;
+  padding: 10px;
+  font-weight: bold;
+}
